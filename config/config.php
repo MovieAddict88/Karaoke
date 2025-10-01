@@ -10,7 +10,7 @@ define('DB_PASS', 'your_db_pass');
 define('DB_NAME', 'your_db_name');
 
 // App Root
-define('APPROOT', dirname(dirname(__FILE__)));
+define('APPROOT', dirname(__DIR__) . '/app');
 // URL Root
 define('URLROOT', 'http://localhost/student-attendance');
 // Site Name
