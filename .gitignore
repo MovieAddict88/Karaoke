@@ -1,0 +1,80 @@
+# VPN Panel - Git Ignore File
+
+# Configuration Files
+/config/config.php
+/config/database.php
+
+# Uploads Directory
+/assets/uploads/*
+!/assets/uploads/.gitkeep
+
+# Logs
+*.log
+/logs/*
+!/logs/.gitkeep
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+
+# Backup Files
+*.bak
+*.backup
+*.sql.gz
+*.sql.zip
+backup/*
+!/backup/.gitkeep
+
+# Session Files
+/tmp/*
+!/tmp/.gitkeep
+
+# Vendor Directories (if using Composer in future)
+/vendor/
+composer.lock
+
+# Node Modules (if using npm in future)
+node_modules/
+package-lock.json
+
+# Build Files
+/dist/
+/build/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Database Dumps
+*.sql
+!config/database.sql
+
+# Error Logs
+error_log
+php_errors.log
+
+# Installation Directory (after installation)
+# Uncomment after installation is complete
+# /install/
